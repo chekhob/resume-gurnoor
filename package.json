@@ -1,0 +1,38 @@
+{
+  "name": "your-resume-package-name",
+  "version": "1.0.0",
+  "description": "Interactive resume displayed in terminal via npx",
+  "main": "index.js",
+  "bin": {
+    "your-resume-package-name": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "resume",
+    "terminal",
+    "cli",
+    "portfolio",
+    "npx"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "strip-ansi": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-resume-package"
+  },
+  "homepage": "https://github.com/yourusername/your-resume-package#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/your-resume-package/issues"
+  }
+}
