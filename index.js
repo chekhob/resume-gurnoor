@@ -36,7 +36,7 @@ const resumeData = {
     },
     {
       company: "Getsetyo Technologies",
-      position: "Sofware Developmment Enginner 1",
+      position: "SDE 1",
       period: "Jan 2024 - March 2025",
       achievements: [
         "Implemented integration with various 3rd party apis",
@@ -129,7 +129,7 @@ function displayResume() {
   // Footer
   const footer = boxen(
     colors.dim('Thank you for viewing my resume!\n') +
-    colors.accent('Run ') + colors.primary.bold('npx your-package-name') + colors.accent(' anytime to view this resume.'),
+    colors.accent('Run ') + colors.primary.bold('npx resume-gurnoor') + colors.accent(' anytime to view this resume.'),
     {
       padding: 1,
       margin: { top: 1 },

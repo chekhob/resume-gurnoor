@@ -1,10 +1,10 @@
 {
-  "name": "your-resume-package-name",
+  "name": "resume-gurnoor",
   "version": "1.0.0",
   "description": "Interactive resume displayed in terminal via npx",
   "main": "index.js",
   "bin": {
-    "your-resume-package-name": "./index.js"
+    "resume-gurnoor": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
@@ -17,7 +17,7 @@
     "portfolio",
     "npx"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Gurnoor Singh Kalsi <gurnoorskalsi@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "boxen": "^5.1.2",
